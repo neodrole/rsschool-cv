@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" href="assets/favicon.ico"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                  <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+
+            
+            <section class="section section-profile" id="profile">
+                <img src="avatar.png" alt="avatar" class="avatar">
+                <div class="profile-title">
+                    <h1 class="profile-name">
+                        Vladislav Vdovin
+                    </h1>
+                </div>
+            </section>
+
+
+            <section class="section" id="contacts">
+                <h2>Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item">Discord: vmgl</li>
+                    <li class="section-item">Telegram: <a href="https://t.me/developernoob">@developernoob</a></li>
+                </ul>
+            </section>
+
+
+            <section class="section" id="about">
+                <h2>About me</h2>
+                <p>I am 21 years old. I have an interest in programming in general, but I'm not sure which field would suit me best. I have basic knowledge about HTML, CSS, JS and Python. Wrote some scripts for personal use. 
+                    I want to create something that will be helpful for people. When a problem is solved, even after I spent the whole night, i'm so happy because it's like some kind of achievement in the game. I believe that creating something useful and meaningful for others gives meaning to my life. </p>
+            </section>
+
+
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML, CSS</li>
+                    <li class="section-item">JavaScript</li>
+                    <li class="section-item">Python</li>
+                </ul>
+            </section>
+
+
+            <section class="section" id="code-example">
+                <h2>Code example</h2>
+                <p><a href="https://www.codewars.com/kata/57cfdf34902f6ba3d300001e" class="paragraph-link">Sort and Star KATA from CODEWARS</a>: You will be given a list of strings.  You must sort it alphabetically (case-sensitive, and based on the ASCII values of the chars) and then return the first value.
+                    The returned value must be a string, and have "***" between each of its letters.</p>
+                <code class="code-example">
+                    <pre>
+    def two_sort(array):
+        array.sort()
+        return '***'.join([x for x in array[0]])
+                    </pre>
+                </code>
+            </section>
+
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <ul class="section-list">
+                    <li class="section-item">Lower post-secondary vocational education, Samara State University of Economics</li>
+                    <li class="section-item">HTML and CSS Tutorials on the w3schools (completed a few years ago)</li>
+                    <li class="section-item">Bachelor's Degree, Samara State University of Economics (in progress)</li>
+                    <li class="section-item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>
+            </section>
+
+            <section class="section" id="experience">
+                <h2>Experience</h2>
+                <p>Wrote some scripts for personal use in Python and JS.</p>
+                <a href="https://github.com/neodrole/rsschool-cv" class="paragraph-link">And this CV.</a>
+            </section>
+
+
+            <section class="section" id="languages">
+                <h2>Languages</h2>
+                <ul class="section-list">
+                    <li class="section-item">Russian - Native</li>
+                    <li class="section-item">English - in the range of C1 ADVANCED to C2 PROFICIENT, according to the online quick check test at <a href="https://www.efset.org/quick-check/">EFSET</a></li>
+                </ul>
+            </section>
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+
+
+        <div class="container footer-container">
+            <span>© 2023 <a href="https://github.com/neodrole" class="paragraph-link">neodrole</a></span>
+            
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+
+
+    </footer>
+
+</body>
+</html>
